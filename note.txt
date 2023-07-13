@@ -1,0 +1,5 @@
+role:
+  - dokter: 1
+  - apoteker: 2
+  - perawat: 3
+  - umum: 4

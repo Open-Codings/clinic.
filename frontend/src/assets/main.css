@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Poppins;
+}
+
+.table-head {
+  @apply px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-500 uppercase border-b border-gray-200 bg-gray-50;
+}
+
+.table-body {
+  @apply px-6 py-4 whitespace-nowrap border-b border-gray-200;
+}
+
+.table-body-text {
+  @apply text-sm font-medium leading-5 text-gray-900;
+}
+
+.form-input {
+  @apply border w-full h-5 px-3 py-5 mt-2 font-normal hover:outline-none focus:outline-none focus:ring-1 focus:ring-indigo-600 rounded-md;
+}
+
+.input-control {
+  @apply border w-full h-5 px-3 py-5 font-normal hover:outline-none focus:outline-none focus:ring-1 focus:ring-primary-300 rounded-md;
+}
+
+.input-disabled {
+  @apply disabled:bg-gray-200 disabled:text-gray-600;
+}
+
+.textarea-control {
+  @apply border w-full p-2 font-normal hover:outline-none focus:outline-none focus:ring-1 focus:ring-primary-300 rounded-md;
+}
